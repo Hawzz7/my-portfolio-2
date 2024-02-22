@@ -2,6 +2,7 @@ import React from "react";
 import bookmyshow from "../assets/bookmyshow.png";
 import flashcard from "../assets/flashcard.png";
 import weatherApp from "../assets/weatherApp.png"
+import galaxy from "../assets/galaxy1.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -16,6 +17,10 @@ const Portfolio = () => {
     {
       id: 3,
       src: weatherApp,
+    },
+    {
+      id: 4,
+      src: galaxy,
     },
   ];
 
