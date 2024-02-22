@@ -11,7 +11,7 @@ export default {
         sign2:['Sacramento']
       },
       backgroundImage: {
-        'star-image': "url('src/assets/galaxy.jpg')"
+        'star-image': "url('src/assets/galaxy.png')"
       },
       keyframes: {
         'trans-up': {
