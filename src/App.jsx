@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 
 const App = () => {
   return (
-    <div className="flex flex-col w-full h-full bg-star-image">
+    <div className="flex flex-col w-full h-full" style={{backgroundImage: "url('src/assets/galaxy.png')"}}>
       <Navbar />
       <Home />
       <About />
