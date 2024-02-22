@@ -7,8 +7,10 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 
 const App = () => {
+  //put the style tag in the div tag to change the background image to custom one
+  // style={{backgroundImage: "url('src/assets/galaxy.png')"}}
   return (
-    <div className="flex flex-col w-full h-full" style={{backgroundImage: "url('src/assets/galaxy.png')"}}>
+    <div className="flex flex-col w-full h-full bg-black">
       <Navbar />
       <Home />
       <About />
