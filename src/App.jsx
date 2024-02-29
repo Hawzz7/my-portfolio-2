@@ -11,8 +11,7 @@ const App = () => {
   // style={{backgroundImage: "url('src/assets/galaxy.png')"}}
   return (
     <div 
-    style={{backgroundImage: "url('src/assets/galaxy.png')"}}
-    className="flex flex-col w-full h-full bg-">
+    className="flex flex-col w-full h-full bg-black">
       <Navbar />
       <Home />
       <About />
