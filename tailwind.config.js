@@ -10,9 +10,9 @@ export default {
         sign: ['Great Vibes'],
         sign2:['Sacramento']
       },
-      // backgroundImage: {
-      //   'star-image': "url('src/assets/galaxy1.png')"
-      // },
+      backgroundImage: {
+        'star-image': "url('src/assets/galaxy.png')"
+      },
       keyframes: {
         'trans-up': {
           '0%, 100%': { transform: 'translateY(25px)' },

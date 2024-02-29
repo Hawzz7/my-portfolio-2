@@ -6,7 +6,7 @@ import react from "../assets/react-logo.png";
 import tailwind from "../assets/tailwind-logo.png";
 import node from "../assets/nodejs-logo.png";
 
-const Experience = () => {
+const Technology = () => {
   const techs = [
     {
       id: 1,
@@ -51,13 +51,13 @@ const Experience = () => {
 
   return (<div>
      <div
-      name="experience"
+      name="technology" //["Link to ={}" === "name = {} "
       className="w-full h-full sm:h-screen"
     >
       <div className="flex flex-col justify-center w-full h-full max-w-screen-lg p-4 mx-auto text-white">
         <div>
           <p className="inline p-2 text-4xl font-bold border-b-4 border-gray-500">
-            Experience
+            Technology
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
@@ -78,4 +78,4 @@ const Experience = () => {
   </div>)
 };
 
-export default Experience;
+export default Technology;

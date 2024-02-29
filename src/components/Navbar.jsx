@@ -20,7 +20,7 @@ const Navbar = () => {
     },
     {
       id: 4,
-      link: "experience",
+      link: "technology",
     },
     {
       id: 5,
@@ -42,7 +42,8 @@ const Navbar = () => {
           >
             <Link to={link} smooth duration={500}>{link}</Link>
           </li>
-        ))}
+        ))} 
+        {/* ["Link to ={}" === "name = {} " */}
       </ul>
       <div
         onClick={() => {
