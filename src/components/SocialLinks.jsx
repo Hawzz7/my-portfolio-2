@@ -41,7 +41,7 @@ const SocialLinks = () => {
         </>
       ),
       //drag & drop your resume pdf inside the public folder and paste it in href here below
-      href: "Narendra.pdf",
+      href: "NarendraResume31.pdf",
       style: "rounded-br-md",
       download: true,
     },
