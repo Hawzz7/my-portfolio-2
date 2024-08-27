@@ -1,4 +1,4 @@
-import React from "react";
+
 import bookmyshow from "../assets/bookmyshow.png";
 import flashcard from "../assets/flashcard.png";
 import weatherApp from "../assets/weatherApp.png";
