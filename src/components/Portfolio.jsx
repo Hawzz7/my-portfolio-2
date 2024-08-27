@@ -2,6 +2,7 @@ import React from "react";
 import bookmyshow from "../assets/bookmyshow.png";
 import flashcard from "../assets/flashcard.png";
 import weatherApp from "../assets/weatherApp.png";
+import amazon from "../assets/amazonWebsite.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -19,6 +20,12 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: amazon,
+      url: "https://amzone-frontend.vercel.app",
+      url2:"https://github.com/Hawzz7/amazon_frontend.git"
+    },
+    {
+      id: 4,
       src: weatherApp,
       url: "",
       url2:""
