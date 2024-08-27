@@ -27,8 +27,8 @@ const Portfolio = () => {
     {
       id: 4,
       src: weatherApp,
-      url: "",
-      url2:""
+      url:"https://weather-app-six-mu-48.vercel.app/",
+      url2: "https://github.com/Hawzz7/weather-app"
     },
   ];
 
